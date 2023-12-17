@@ -6,10 +6,10 @@ Created on Tue Nov 14 22:22:42 2023
 """
 import streamlit as st
 import numpy as np
-#import joblib
-import pickle
-#model = joblib.load('xgbpipe.joblib')
-model = pickle.load(open('omid.pkl', 'rb'))
+import joblib
+#import pickle
+model = joblib.load('xgbpipe.joblib')
+#model = pickle.load(open('omid.pkl', 'rb'))
 st.title('Will you survive if you were among Titanic passengers or not :ship:')
 # PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
 passengerid = st.text_input("Input Passenger ID", '8585') 
