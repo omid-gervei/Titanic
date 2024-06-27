@@ -7,6 +7,7 @@
 
 
 1. General info
+
 In this project we have a database containing general information about the passengers of titanic.
 The goal of the project is to forecast the aliveness status of the passengers using some infomation like: Age, Sex, ticket class, ...
 
